@@ -1,0 +1,148 @@
+@font-face {
+  font-family: "Hanson";
+  src: local("Hanson"), url("../public//fonts/Hanson-Bold.otf");
+  font-weight: normal;
+  font-display: block;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat"),
+    url("../public//fonts/Montserrat-VariableFont_wght.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Karrera";
+  src: local("Karrera"), url("../public//fonts/Karrera-Regular.otf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Urbanist";
+  src: local("Urbanist"), url("../public//fonts/Urbanist-VariableFont_wght.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Satoshi";
+  src: local("Satoshi"), url("../public//fonts/Satoshi-Regular.otf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Satoshi_Black";
+  src: local("Satoshi"), url("../public//fonts/Satoshi-Black.otf");
+  font-weight: normal;
+}
+
+/* variable css */
+
+:root {
+  /* FONT */
+  --primary-font: Hanson;
+  --secondary-font: Montserrat;
+  --tertiary-font: Urbanist;
+  --kerrera-font: Karrera;
+  --Satoshi-font: Satoshi;
+  --Satoshi-black-font: Satoshi_Black;
+
+  /* FONT WEIGHT */
+  --font-normal: 400;
+  --font-medium: 500;
+  --font-semi-bold: 600;
+  --font-bold: 700;
+  --font-extra-bold: 900;
+
+  /* COLORS */
+  --primary-color: #00d54b;
+  --background-color: #f8f6f6;
+  --dark-color: #000000;
+  --light-color: #ffffff;
+
+  /* z-index */
+  --z-tooltip: 10;
+  --z-fixed: 100;
+  --z-modal: 1000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--primary-font);
+  font-size: var(--font-bold);
+  background-color: var(--background-color);
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: var(--dark-color);
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+section {
+  display: flex;
+
+  min-height: 90%;
+  /* scroll-snap-align: start; */
+}
+button {
+  padding: 0.5rem 1rem;
+  /* border: none; */
+  font-size: 1rem;
+  border-radius: 0.5em;
+  background-color: var(--light-color);
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+button:hover {
+  transform: scale(1.1);
+}
+
+a {
+  color: var(--dark-color);
+}
+p {
+  font-size: 1rem;
+}
+
+.custom-scrollbar {
+  /* Set a fixed height for the container */
+  
+  height: 350px; /* Adjust as needed */
+  
+  overflow-y: scroll;
+  scrollbar-width: thin; /* For Firefox */
+  /* scrollbar-color: #333 #999; Color of the scrollbar track and thumb */
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  /* For Webkit (Chrome, Safari, newer versions of Edge) */
+  width: 4px; /* Adjust the width of the scrollbar */
+  
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  /* Style the scrollbar thumb */
+  border-radius: 2px;
+  background-color: #fff;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  /* Style the scrollbar track */
+  background-color: gray;
+}
+
+
+
+@media screen and (max-width: 1090px) {
+  section {
+    min-height: 70%;
+  }
+}
