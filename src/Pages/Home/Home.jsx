@@ -10,6 +10,7 @@ import { Organizers } from "../../components/Organizers/Organizers";
 import SponsorsList from "../../components/SponsorsList/SponsorsList";
 import Themes from "../../components/Themes/Themes";
 import mlhBadge from "../../assets/mlh-badge.png";
+import AboutInfo from "../../components/AboutInfo/AboutInfo";
 
 import JoinUs from "../../components/JoinUs/JoinUs";
 export const Home = () => {
@@ -28,10 +29,12 @@ export const Home = () => {
       <Navbar />
       <Hero />
       <About />
+      <AboutInfo />
+
       <Themes />
       {/* <Organizers /> */}
-      <SponsorsList />
-      <Sponsors />
+      {/* <SponsorsList /> */}
+      {/* <Sponsors /> */}
       <Faq />
       <JoinUs />
       <Footernew />

@@ -8,6 +8,7 @@ import Pillar from "../../assets/pillar.png";
 import Pillarmed from "../../assets/pillar-medium.png";
 import Pillarsmall from "../../assets/pillar-small.png";
 import Pillarlarge from "../../assets/pillar-large.png";
+import CyberCarnivalLogo from "../../assets/about/cyber-carnival-logo.png";
 
 export const About = () => {
   const hackDetails = [
@@ -96,6 +97,7 @@ export const About = () => {
             challenges, simulate real-world cyber threats.
           </p>
         </div>
+        <img src={CyberCarnivalLogo} alt="" />
       </div>
     </section>
   );

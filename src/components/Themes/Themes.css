@@ -1,0 +1,12 @@
+.theme-desc {
+  color: white;
+  z-index: 999;
+  position: relative;
+  align-items: center;
+  text-align: center;
+  padding-top: 30px;
+}
+
+#Themes {
+  min-height: auto;
+}

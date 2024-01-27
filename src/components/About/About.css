@@ -197,3 +197,19 @@
     width: 48rem;
   }
 }
+
+.main-about {
+  display: flex;
+}
+@media (max-width: 890px) {
+  .main-about {
+    display: block;
+  }
+  .about-body {
+    text-align: center;
+  }
+  .main-about img {
+    display: block;
+    margin: 0 auto;
+  }
+}

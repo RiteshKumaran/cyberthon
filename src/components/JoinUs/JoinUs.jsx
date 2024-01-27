@@ -3,6 +3,7 @@ import Joinus from "../../assets/Join_content.png";
 import { FaInstagram, FaLinkedinIn, FaDiscord } from "react-icons/fa";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXTwitter } from "@fortawesome/free-brands-svg-icons";
+import "./JoinUs.css";
 
 const socialLinks = [
   {
@@ -31,21 +32,18 @@ const JoinUs = () => {
   return (
     <section
       id="join"
-      className="flex flex-col  p-10 md:justify-center md:items-center"
+      className="flex flex-col  p-10 md:justify-center md:items-center join"
     >
       <div className="text-4xl text-primary font-karrera ml-5">Join Us</div>
 
       <div className="flex flex-row flex-1 justify-center  gap-20 md:gap-5  mt-10 md:flex-col md:justify-center md:items-center">
-        <div className="flex flex-col mt-10 flex-1 gap-5 md:justify-center md:items-center ">
-          <div className="flex flex-col gap-6 md:justify-center  w-[100%]">
-            <div className="flex font-Satoshi text-5xl  text-light md:text-4xl">
-              We’re the James Bond of hackathons
-            </div>
+        <div className="flex flex-col mt-4 flex-1 gap-10 md:justify-center md:items-center ">
+          <div className="flex flex-col gap-4 md:justify-center  w-[100%]">
             <div className="text-[#CACACA] text-lg font-secondary w-[90%]">
-              Don't miss out on your chance to be part of the most dynamic tech
-              event of the year, where ‘hacking’ would definitely be your middle
-              name! Join the conversation, collaborate on ideas, and stay in the
-              loop :)
+              Take the leap and immerse yourself in the most exciting tech event
+              of the season, where 'hacking' is not just encouraged, it's your
+              signature trait! Spark discussions, fuse ideas, and stay connected
+              to the latest trends.
             </div>
           </div>
           <div className="grid grid-cols-2 gap-10 md:gap-5 w-[60vh] md:w-[100%]">

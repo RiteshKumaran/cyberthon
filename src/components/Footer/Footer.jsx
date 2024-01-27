@@ -45,12 +45,6 @@ const Footernew = () => {
           </a>
           <a
             className="font-tertiary text-light my-2 mx-0 opacity-70"
-            href="#sponsors-list"
-          >
-            Sponsors
-          </a>
-          <a
-            className="font-tertiary text-light my-2 mx-0 opacity-70"
             href="#Faq"
           >
             FAQ
@@ -62,9 +56,7 @@ const Footernew = () => {
             Join Us
           </a>
         </section>
-        <section className="flex-content relative flex flex-col p-4">
-          <h1>CYBERTHON</h1>
-        </section>
+
         <section className="flex-content relative flex flex-col p-4">
           <h3 className="social-text ml-4 font-primary text-lg text-light mb-4">
             Socials
@@ -106,19 +98,20 @@ const Footernew = () => {
             </a>
           </div>
         </section>
-      </div>
-      <hr className="hr-tag w-4/5 opacity-30 mx-auto" />
-      <div className="flex">
-        <section className="flex-content relative flex p-4 pb-0 w-full">
-          <p className="disclaimer mx-auto flex justify-center items-center gap-1.5 font-tertiary">
-            Made with{" "}
-            <span className="heart text-lg font-Satoshi  font-semibold">
-              {" "}
-              3 AM coffee! &#9749;
-            </span>
-          </p>
+        <section className="flex-content relative flex flex-col p-4">
+          <h1>Contact</h1>
+          <h3 className="font-tertiary text-light my-2 mx-0 opacity-70">
+            Ashwathaman: +91 9113242040
+          </h3>
+          <h3 className="font-tertiary text-light my-2 mx-0 opacity-70">
+            Sarvesh: +91 7299078701
+          </h3>
+          <h3 className="font-tertiary text-light my-2 mx-0 opacity-70">
+            Eeshwar: +91 9442954949
+          </h3>
         </section>
       </div>
+      <hr className="hr-tag w-4/5 opacity-30 mx-auto" />
     </footer>
   );
 };

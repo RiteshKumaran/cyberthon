@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../Faq/Faq.css";
 import Faqbg from "../../assets/FAQbackground.png";
-import FaqAssest from "../../assets/Faqassest.png";
+import FAQ from "../../assets/faq.png";
 
 // import spaceLines from "../../assets/space-lines.png";
 // import { Faq } from "../../components/Faq/Faq.json";
@@ -17,54 +17,32 @@ export const Faq = () => {
     {
       question: "What is Hackathon?",
       reply:
-        "A hackathon is a creative, time-bound gathering where individuals collaborate to rapidly innovate, typically within a technology-focused context, fostering solutions and ideas.",
+        "A hackathon is a dynamic, time-limited event that brings together minds to swiftly cultivate innovation, often in the realm of technology. It serves as a breeding ground for solutions and ideas to flourish.",
     },
     {
       question: "Who can participate?? ",
       reply:
-        "Cyberthon  welcomes all and presents you with a chance to be an enthusiastic coder who is passionate about learning, developing and growing together.",
+        "Cyberthon extends its open arms to everyone, providing you with the chance to embrace the role of an eager coder who is dedicated to the journey of learning, evolving, and thriving together.",
     },
     {
       question:
         "Can we bring our own team or do we have to form a team at the event?",
       reply:
-        "Participants can either bring their own team or form a team at the event. The team size should consist of 2 to 4 individuals.",
+        "Participants can either bring their own team or form a team at the event. The team size should consist of 1 to 4 individuals.",
     },
     {
       question: "Is there any registration fee?",
-      reply: "FREE. This hackathon is free for all participants.",
-    },
-    {
-      question: "Accommodation /food??",
-      reply:
-        " Don't worry about where to stay and what to eat! We've got you covered. All participants will be cozy and comfortable in the college hostels with all the necessary amenities and meals.Plus, there will be unlimited coffee available to keep you fueled and focused. It's time to hack and relax! ",
+      reply: "Yes. The registration fee is 749/-",
     },
     {
       question: "What should you bring with you for the hackathon?",
       reply:
-        "A laptop and necessary charging equipment Any software or hardware tools needed for your project A valid government-issued ID for verification purposes A positive attitude towards collaboration",
-    },
-    {
-      question: "Where will the event take place?",
-      reply: `The venue of the event will be Bhilai Institute of Technology, Durg.`,
-      links: "https://maps.app.goo.gl/Xg6qmbtKg8DXxEgZ8",
-    },
-    {
-      question: "Where can you find teammates?",
-      reply:
-        "If you do not have a team and are looking for people with a specific tech stack, you can join our discord server to network with others and form your teams.",
-      links: "https://discord.gg/KnthBxzApR",
-    },
-    {
-      question:
-        "More specific themes and problem statement will be disclosed soon??",
-      reply:
-        "Whichever track you choose, you can ideate & build either a software or a hardware project!",
+        "You'll need a laptop along with the essential charging gear, any required software or hardware tools for your project, and a willingness to engage in collaborative efforts with a positive mindset.",
     },
     {
       question: "Have a question aside from these?",
       reply: "Reach out to us at : ",
-      links: "opinhacks@gmail.com",
+      links: " hello@cybercarnival.in",
     },
   ];
 
@@ -197,7 +175,7 @@ export const Faq = () => {
           </div>
         </div>
         <div className="md:hidden h-fit">
-          <img src={FaqAssest} alt="" />
+          <img src={FAQ} alt="" />
         </div>
       </div>
     </section>

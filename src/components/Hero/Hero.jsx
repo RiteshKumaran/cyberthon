@@ -72,9 +72,9 @@ export const Hero = () => {
         className="pillar-el elements"
         alt=""
       />
-      <img src={eye} data-speed="2" className="eye-el elements" alt="" />
+      {/* <img src={eye} data-speed="2" className="eye-el elements" alt="" /> */}
       <img src={laptop} data-speed="3" className="laptop-el elements" alt="" />
-      <img src={cube} data-speed="-3" className="cube-el elements" alt="" />
+      {/* <img src={cube} data-speed="-3" className="cube-el elements" alt="" /> */}
       <img src={cubes} data-speed="-9" className="cubes-el elements" alt="" />
       <img className="space-lines" data-speed="-2" src={spaceLines} />
 
@@ -85,10 +85,11 @@ export const Hero = () => {
           </div>
         </div>
         <div className="hero-subtitle flex items-center justify-center">
-          <BsCalendarCheckFill size={20} className="mr-2 md:mr-1" /> 29 Sep 2023
-          <span className="date-divider">|</span>
-          &nbsp; <FaMapMarkedAlt size={20} className="mr-2 md:mr-1" />{" "}
-          CHHATTISGARH
+          <BsCalendarCheckFill
+            size={20}
+            className="mr-2 mt-2  md:mt-0 md:mr-1"
+          />{" "}
+          3,4 FEB 2024
         </div>
         <div className="social-links">
           <a href="https://cybercarnival.in/event?id=CCev0001" target="_blank">
@@ -98,29 +99,7 @@ export const Hero = () => {
             </button>
           </a>
         </div>
-        <div className="social-links-bottom">
-          <a
-            href="https://www.linkedin.com/company/opinhacks/"
-            target="_blank"
-            className="in-icon"
-          >
-            <FaLinkedinIn fontSize="1.6rem" />
-          </a>
-          <a
-            href="https://twitter.com/opinhacks"
-            target="_blank"
-            className="twitter-icon"
-          >
-            <FontAwesomeIcon icon={faXTwitter} size="xl" className="" />
-          </a>
-          <a
-            href="https://www.instagram.com/opinhacks/"
-            target="_blank"
-            className="instagram-icon"
-          >
-            <FaInstagram fontSize="1.5rem" />
-          </a>
-        </div>
+
         {/* <div className="down-arrow">
           <BsArrowDown fontSize="2.5rem" />
         </div> */}
