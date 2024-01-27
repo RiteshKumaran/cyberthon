@@ -32,32 +32,44 @@ const Footernew = () => {
             Home
           </a>
           <a
-            className="font-tertiary text-light my-2 mx-0 opacity-70"
+            className="font-tertiary text-light my-3 mx-0 opacity-70"
             href="#About"
           >
             About
           </a>
           <a
-            className="font-tertiary text-light my-2 mx-0 opacity-70"
+            className="font-tertiary text-light my-3 mx-0 opacity-70"
             href="#Themes"
           >
             Themes
           </a>
           <a
-            className="font-tertiary text-light my-2 mx-0 opacity-70"
+            className="font-tertiary text-light my-3 mx-0 opacity-70"
+            href="#Schedule"
+          >
+            Schedule
+          </a>
+          <a
+            className="font-tertiary text-light my-3 mx-0 opacity-70"
+            href="#Timeline"
+          >
+            Timeline
+          </a>
+          <a
+            className="font-tertiary text-light my-3 mx-0 opacity-70"
             href="#Faq"
           >
             FAQ
           </a>
           <a
-            className="font-tertiary text-light my-2 mx-0 opacity-70"
+            className="font-tertiary text-light my-3 mx-0 opacity-70"
             href="#join"
           >
             Join Us
           </a>
         </section>
 
-        <section className="flex-content relative flex flex-col p-4">
+        {/* <section className="flex-content relative flex flex-col p-4">
           <h3 className="social-text ml-4 font-primary text-lg text-light mb-4">
             Socials
           </h3>
@@ -73,40 +85,17 @@ const Footernew = () => {
                 className="socials-icon text-primary"
               />
             </a>
-            <a
-              className="font-tertiary text-light my-2 mx-0 opacity-70"
-              href="https://www.linkedin.com/company/opinhacks/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <AiFillLinkedin
-                size="2rem"
-                className="socials-icon text-primary"
-              />
-            </a>
-            <a
-              className="font-tertiary text-light my-2 mx-0 opacity-70"
-              href="https://twitter.com/opinhacks"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <FontAwesomeIcon
-                icon={faXTwitter}
-                size="2x"
-                className="socials-icon text-primary"
-              />
-            </a>
           </div>
-        </section>
+        </section> */}
         <section className="flex-content relative flex flex-col p-4">
-          <h1>Contact</h1>
-          <h3 className="font-tertiary text-light my-2 mx-0 opacity-70">
+          <h1 className="my-3">Contact</h1>
+          <h3 className="font-tertiary text-light my-3 mx-0 opacity-70">
             Ashwathaman: +91 9113242040
           </h3>
-          <h3 className="font-tertiary text-light my-2 mx-0 opacity-70">
+          <h3 className="font-tertiary text-light my-3 mx-0 opacity-70">
             Sarvesh: +91 7299078701
           </h3>
-          <h3 className="font-tertiary text-light my-2 mx-0 opacity-70">
+          <h3 className="font-tertiary text-light my-3 mx-0 opacity-70">
             Eeshwar: +91 9442954949
           </h3>
         </section>

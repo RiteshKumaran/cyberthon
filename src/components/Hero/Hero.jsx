@@ -8,6 +8,7 @@ import pillar from "../../assets/intro-pillar.svg";
 import cube from "../../assets/intro-cube.png";
 import cubes from "../../assets/intro-cubes.png";
 import laptop from "../../assets/laptop.png";
+import Countdown from "../Countdown/Countdown";
 import {
   FaTwitter,
   FaInstagram,
@@ -21,6 +22,7 @@ import { BsCalendarCheckFill } from "react-icons/bs";
 import { FaMapMarkedAlt } from "react-icons/fa";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXTwitter } from "@fortawesome/free-brands-svg-icons";
+import CountdownTimer from "../Countdown/Countdown";
 export const Hero = () => {
   $(document).ready(function () {
     var homepage = document.querySelector("#Homepage");
@@ -85,11 +87,8 @@ export const Hero = () => {
           </div>
         </div>
         <div className="hero-subtitle flex items-center justify-center">
-          <BsCalendarCheckFill
-            size={20}
-            className="mr-2 mt-2  md:mt-0 md:mr-1"
-          />{" "}
-          3,4 FEB 2024
+          <BsCalendarCheckFill size={20} className="mr-2 mt-2 sm:mt-1" /> 3,4
+          FEB 2024
         </div>
         <div className="social-links">
           <a href="https://cybercarnival.in/event?id=CCev0001" target="_blank">
@@ -99,6 +98,8 @@ export const Hero = () => {
             </button>
           </a>
         </div>
+
+        <CountdownTimer targetDate="2024-02-03T00:00:00" />
 
         {/* <div className="down-arrow">
           <BsArrowDown fontSize="2.5rem" />

@@ -13,6 +13,9 @@ import mlhBadge from "../../assets/mlh-badge.png";
 import AboutInfo from "../../components/AboutInfo/AboutInfo";
 
 import JoinUs from "../../components/JoinUs/JoinUs";
+import Timeline from "../../components/Timeline/timeline";
+import CountdownTimer from "../../components/Countdown/Countdown";
+import Schedule from "../../components/Schedule/Schedule";
 export const Home = () => {
   const handleScroll = () => {
     const homepage = document.getElementById("Homepage");
@@ -24,18 +27,33 @@ export const Home = () => {
       navbar.classList.remove("active");
     }
   };
+
+  const events = [
+    { date: "5%", day: "DAY 1", time: "08:30 AM", activity: "Inaugration" },
+    { date: "15%", day: "DAY 1", time: "10:00 AM", activity: "Start" },
+    { date: "25%", day: "DAY 2", time: "01:00 PM", activity: "Judging-1" },
+    { date: "35%", day: "DAY 2", time: "03:30 PM", activity: "Judging-2" },
+    { date: "45%", day: "DAY 2", time: "06:00 PM", activity: "Closing" },
+  ];
+
   return (
     <div id="Homepage" className="homepage-container" onScroll={handleScroll}>
       <Navbar />
       <Hero />
+
       <About />
+
       <AboutInfo />
 
       <Themes />
+
+      <Schedule />
+      <Timeline events={events} />
       {/* <Organizers /> */}
       {/* <SponsorsList /> */}
       {/* <Sponsors /> */}
       <Faq />
+
       <JoinUs />
       <Footernew />
     </div>

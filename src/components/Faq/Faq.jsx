@@ -71,7 +71,7 @@ export const Faq = () => {
           <label
             htmlFor={`id${index}`}
             className="cursor-pointer inline-flex flex-row flex-nowrap items-center justify-between transition-opacity duration-300 
-            after:content-['+'] after:h-6 after:w-6 after:text-grey after:flex after:items-center after:justify-center after:text-3xl after:opacity-30
+            after:content-['+'] after:ml-auto after:h-6 after:w-6 after:text-grey after:flex after:items-center after:justify-center after:text-3xl after:opacity-30
             after:transition-transform
             after:duration-200
             group-hover:after:opacity-100
@@ -163,11 +163,11 @@ export const Faq = () => {
         {faqTab(9)}
         {faqTab(10)} */}
         <div className="flex flex-col  gap-3 md:items-center ">
-          <div className="text-light text-5xl md:text-4xl font-Satoshi tracking-wide font-bold mb-5 w-full">
+          <div className="text-light text-5xl md:text-4xl font-Satoshi tracking-wide font-bold mb-5 w-full some">
             Some of the frequently <br /> asked questions
           </div>
           <div className="w-[70%] md:w-[100%] max-h-[60vh] overflow-y-scroll custom-scrollbar grid gap-4 ">
-            <div className="grid gap-4 mr-3">
+            <div className="grid gap-4">
               {faqData.map((data, index) => {
                 return faqTab(data.question, data.reply, data.links, index);
               })}

@@ -4,6 +4,10 @@ module.exports = {
     extend: {
       screens: {
         md: { max: "1090px" },
+        sm: { max: "540px" },
+      },
+      fontSize: {
+        xss: "10px",
       },
       fontFamily: {
         primary: ["var(--primary-font)"],

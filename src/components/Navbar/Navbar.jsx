@@ -36,6 +36,16 @@ const Navbar = () => {
           </a>
         </li>
         <li>
+          <a href="#Schedule" onClick={closeNavbar}>
+            Schedule
+          </a>
+        </li>
+        <li>
+          <a href="#Timeline" onClick={closeNavbar}>
+            Timeline
+          </a>
+        </li>
+        <li>
           <a href="#Faq" onClick={closeNavbar}>
             FAQ
           </a>
