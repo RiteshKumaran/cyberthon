@@ -87,8 +87,8 @@ export const About = () => {
       </h1>
       <div className="main-about w-[90%] grid grid-cols-2 md:gap-12 md:grid-cols-1 items-center">
         <div className="about-body mx-auto">
-          <p className="question mb-4 text-4xl text-white font-Satoshi">
-            Cyberthon - What’s the deal?
+          <p className="question mb-4 text-3xl text-white font-Satoshi">
+            Cyberthon - What is it?
           </p>
           <p className="answer text-lg  font-secondary text-white opacity-60">
             Embark on a journey into the heart of cybersecurity excellence with

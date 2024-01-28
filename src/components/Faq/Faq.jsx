@@ -78,12 +78,12 @@ export const Faq = () => {
             peer-checked/input:after:rotate-[135deg]
             "
           >
-            <h2 className="font-normal font-secondary text-base text-light  pr-2 md:text-[10px]/3 md:p-0">
+            <h2 className="font-normal font-secondary text-base text-light  pr-2 md:text-[12px]/3 md:p-0">
               {question}
             </h2>
           </label>
           <div className="faq-content max-h-0 overflow-hidden ease-in-out duration-200 peer-checked/input:max-h-screen">
-            <h5 className="text-[0.85rem] font-secondary font-normal pt-2 w-[80%] opacity-70 md:text-[0.5rem]">
+            <h5 className="text-[0.9rem] font-secondary font-normal pt-2 w-[80%] opacity-70 md:text-[0.7rem]">
               {reply}
             </h5>
             {links ? (
@@ -163,9 +163,9 @@ export const Faq = () => {
         {faqTab(9)}
         {faqTab(10)} */}
         <div className="flex flex-col  gap-3 md:items-center ">
-          <div className="text-light text-5xl md:text-4xl font-Satoshi tracking-wide font-bold mb-5 w-full some">
-            Some of the frequently <br /> asked questions
-          </div>
+          <h1 className="font-karrera text-primary  tracking-widest font-normal text-5xl md:text-3xl pb-10 md:py-6 ">
+            FAQ
+          </h1>
           <div className="w-[70%] md:w-[100%] max-h-[60vh] overflow-y-scroll custom-scrollbar grid gap-4 ">
             <div className="grid gap-4">
               {faqData.map((data, index) => {
