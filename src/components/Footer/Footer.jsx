@@ -14,7 +14,7 @@ const socialLinks = [
   {
     text: "INSTAGRAM",
     icon: FaInstagram,
-    href: "https://www.instagram.com/cybercarnival_2024/",
+    href: "https://www.instagram.com/cyber_carnival_srmrmp/",
   },
 ];
 
