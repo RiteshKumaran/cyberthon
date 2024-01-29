@@ -2,13 +2,21 @@ import React from "react";
 import "./Footer.css";
 import logo from "../../assets/logo.png";
 // import car from "../../assets/car.png"
-import { FaDiscord } from "react-icons/fa";
+import { FaDiscord, FaInstagram } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
 import { AiOutlineTwitter } from "react-icons/ai";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXTwitter } from "@fortawesome/free-brands-svg-icons";
 import BacktoFuture from "../../assets/BacktoFuture.png";
+
+const socialLinks = [
+  {
+    text: "INSTAGRAM",
+    icon: FaInstagram,
+    href: "https://www.instagram.com/cybercarnival_2024/",
+  },
+];
 
 const Footernew = () => {
   function discordlink() {
@@ -98,6 +106,27 @@ const Footernew = () => {
           <h3 className="font-tertiary text-light my-3 mx-0 opacity-70">
             Eeshwar: +91 9442954949
           </h3>
+
+          <div className=" w-[60vh] md:w-[100%] xs:scale-75 xxs:ml-[-14px] xs:ml-[-18px]">
+            {socialLinks.map((link, index) => (
+              <div className="social-links">
+                <a key={index} href={link.href} target="_blank">
+                  <button className="register-btn flex items-center">
+                    {link.icon === faXTwitter ? (
+                      <FontAwesomeIcon
+                        icon={faXTwitter}
+                        size="lg"
+                        className="text-black"
+                      />
+                    ) : (
+                      <link.icon className="text-black md:w-[1rem] w-[2rem] " />
+                    )}
+                    <span className="mt-1 ">{link.text}</span>
+                  </button>
+                </a>
+              </div>
+            ))}
+          </div>
         </section>
       </div>
       <hr className="hr-tag w-4/5 opacity-30 mx-auto" />
