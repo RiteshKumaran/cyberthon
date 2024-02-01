@@ -31,9 +31,9 @@ export const Home = () => {
   const events = [
     { date: "5%", day: "DAY 1", time: "08:30 AM", activity: "Inaugration" },
     { date: "15%", day: "DAY 1", time: "10:00 AM", activity: "Start" },
-    { date: "25%", day: "DAY 2", time: "01:00 PM", activity: "Judging-1" },
-    { date: "35%", day: "DAY 2", time: "03:30 PM", activity: "Judging-2" },
-    { date: "45%", day: "DAY 2", time: "06:00 PM", activity: "Closing" },
+    { date: "25%", day: "DAY 2", time: "01:00 AM", activity: "Judging-1" },
+    { date: "35%", day: "DAY 2", time: "09:00 AM", activity: "Judging-2" },
+    { date: "45%", day: "DAY 2", time: "10:00 AM", activity: "Closing" },
   ];
 
   return (
