@@ -23,7 +23,7 @@ const JoinUs = () => {
           </div>
           <div className="social-links ml-auto mr-auto">
             <a
-              href="https://cybercarnival.in/event?id=CCev0001"
+              href="https://register.cybercarnival.in/event?id=CCev0001"
               target="_blank"
             >
               <button className="register-btn ">

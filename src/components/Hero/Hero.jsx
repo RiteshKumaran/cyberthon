@@ -91,7 +91,7 @@ export const Hero = () => {
           FEB 2024
         </div>
         <div className="social-links">
-          <a href="https://cybercarnival.in/event?id=CCev0001" target="_blank">
+          <a href="https://register.cybercarnival.in/event?id=CCev0001" target="_blank">
             <button className="register-btn">
               {/* <HiOutlinePencilSquare fontSize="1.6rem"/> */}
               REGISTER
